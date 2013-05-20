@@ -108,5 +108,5 @@ UpgradeLog*.XML
 
 # Added for Java Platform
 build
-WEB-INF/lib
-WEB-INF/classes
+WEB-INF/lib/
+WEB-INF/classes/
