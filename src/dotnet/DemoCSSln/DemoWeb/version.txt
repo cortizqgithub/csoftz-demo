@@ -1,0 +1,70 @@
+CompanyName=CSoftZ
+InternalName=ASP.NET MVC Demo
+Language=Spanish,English
+LegalTrademarks= Copyright (c) 2010 by CSoftZ.
+ProductName=Demo
+StartDate=Dec.01/2010
+LastModified=Dec.20/2010
+ProductVersion=2010.12.01.01 Dec.02/2010
+ProductMode=Web application
+Platform=.NET
+Modules=Spring Framework .NET (http://www.springframework.net/),
+        MVCContrib (http://mvccontrib.codeplex.com/),
+        AutoMapper (http://automapper.codeplex.com),
+        NUnit (www.nunit.org/),
+        jQuery (http://jquery.com/),
+        jQuery.CascadingDropDown (http://github.com/rajkaimal/CascadingDropDown, 
+                                  http://weblogs.asp.net/rajbk/archive/2010/05/20/cascadingdropdown-jquery-plugin-for-asp-net-mvc.aspx),
+        Telerik ASP.NET MVC (http://www.telerik.com/products/aspnet-mvc.aspx)
+        Uploadify v2.1.0 (http://www.uploadify.com/,
+                          http://www.mvccentral.net/Kit/Details/6/ASP.NET_MVC_2_using_Uploadify_jQuery_Plugin
+        ),
+        SWFObject v2.2 or greater (used by Uploadify),
+        Flash Player v9.0.24 or greater (used by Uploadify),
+        jQuery Lightbox v0.5 (http://leandrovieira.com/projects/jquery/lightbox/),
+        greybox (http://jquery.com/demo/grey/),
+        jQuery BlockUI Plugin (v2) (http://jquery.malsup.com/block/#download)
+        jQuery Tools v1.2.4 (http://flowplayer.org/tools/index.html),
+        MVCPager v1.4 http://mvcpager.codeplex.com/,
+        Simple JQuery Accordion Plugin simple-accordion
+        Yup, Yet another JQuery Accordion Plugin V3.1 (http://www.i-marco.nl/weblog/archive/2010/02/27/yup_yet_another_jquery_accordi ,
+                                                       http://www.i-marco.nl/weblog/jquery-accordion-3/ ,
+                                                       http://www.i-marco.nl/weblog/archive/2008/05/08/simple_jquery_accordion_menu__ ,
+                                                       http://www.i-marco.nl/weblog/ ,
+                                                       http://www.i-marco.nl/weblog/jquery-accordion-menu-redux2/ (Cookie Version) ,
+                                                       marco@i-marco.nl),
+         include Cycle plugin (http://jquery.malsup.com/cycle/ )
+Database=Microsoft SQL Server 2008
+Web Design=blu (http://www.openwebdesign.org/viewdesign.phtml?id=5809)
+Comments=
+
+Dependencies=
+This project requires the following DLLs (Assemblies)
+Dlls updated up to Dec.02/2010
+External Dlls
+-------------
+1. MvcContrib.dll (Version 2.0.36.0)
+2. MvcContrib.Spring.dll (Version 2.0.36.0)
+3. Spring.Aop.dll (Version 1.2.0.20313)
+4. Spring.Core.dll (Version 1.2.0.20313)
+5. Telerik.Web.Mvc.dll (Version 2010.2.713.235)
+6. AutoMapper.dll (Version 1.1.0.188)
+
+Internal Dlls
+-------------
+1. CSoftZ.Demo.Common.dll (Version 2010.12.01.01)
+2. CSoftZ.Demo.Data.dll (Version 2010.12.01.01)
+3. CSoftZ.Demo.Domain.dll (Version 2010.12.01.01)
+4. CSoftZ.Demo.Interface.dll (Version 2010.12.01.01)
+5. CSoftZ.Demo.Service.dll (Version 2010.12.01.01)
+6. CSoftZ.Demo.Web.dll (Version 2010.12.01.01)
+
+References=
+See any of these URls to get more inforamtion on any related information 
+contained in the application.
+
+Facebook LIKE button (http://developers.facebook.com/docs/reference/plugins/like)
+Google Ajax Search API (http://code.google.com/apis/ajaxsearch/documentation/)
+
+Release-History:
+Dec.02/2010 Version 2010.12.01.01 Initial Release

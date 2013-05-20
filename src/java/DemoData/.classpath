@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="/src/CSoftZ/prjs/CSoftZ/DemoMVC.jse/resources/libraries/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/src/CSoftZ/prjs/CSoftZ/DemoMVC.jse/resources/libraries/spring-3/org.springframework.jdbc-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/src/CSoftZ/prjs/CSoftZ/DemoMVC.jse/resources/libraries/spring-3/org.springframework.transaction-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/src/CSoftZ/prjs/CSoftZ/DemoMVC.jse/resources/libraries/spring-3/org.springframework.beans-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/src/CSoftZ/prjs/CSoftZ/DemoMVC.jse/resources/libraries/spring-3/org.springframework.core-3.0.5.RELEASE.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/DemoInterface"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/DemoCommon"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/DemoDomain"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

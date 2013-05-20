@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+  /*==========================================================================*/
+  /* Source File:   DB.XML                                                    */
+  /* Description:   IoC context                                               */
+  /* Author:        Carlos Adolfo Ortiz Quirós  (COQ)                         */
+  /* Date:          Dec.23/2010                                               */
+  /* Last Modified: Jan.05/2011                                               */
+  /* Version:       1.4                                                       */
+  /* Copyright (c), 2010, 2011 CSoftZ                                         */
+  /*==========================================================================*/
+  /*===========================================================================
+  History
+  Dec.23/2010 COQ  File created.
+  ============================================================================*/
+  
+-->
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:jdbc="http://www.springframework.org/schema/jdbc"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd
+		http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd
+		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd">
+  <import resource="db-ds.xml" />
+  <!-- Here are the information bean objects -->
+    <bean id="productData" class="com.csoftz.demo.data.db.jdbc.JdbcProductData">
+      <property name="dataSource" ref="dataSource"/>
+      <property name="sqlDelete">
+      <value>
+        <![CDATA[
+DELETE FROM PRODUCT 
+WHERE PRODUCTID = ?
+         ]]>
+      </value>
+    </property>
+    <property name="sqlInsert">
+      <value>
+        <![CDATA[
+INSERT INTO Product(Name,eMail,Phone,Address,City,Estate,Country,DateCreated,DateModified,Active)
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+         ]]>
+      </value>
+    </property>
+    <property name="sqlSelect">
+      <value>
+        <![CDATA[
+SELECT ProductId,Name,eMail,Phone,Address,City,Estate,Country,DateCreated,DateModified,Active
+FROM Product
+         ]]>
+      </value>
+    </property>
+    <property name="sqlSelectForPK">
+      <value>
+        <![CDATA[
+SELECT ProductId,Name,eMail,Phone,Address,City,Estate,Country,DateCreated,DateModified,Active
+FROM Product
+WHERE ProductId = ?
+         ]]>
+      </value>
+    </property>
+    <property name="sqlUpdate">
+      <value>
+        <![CDATA[
+UPDATE Product
+SET
+Name=?, eMail = ?, Phone = ?, Address = ?,
+City=?, Estate = ?, Country = ?, DateModified = ?, Active = ?
+WHERE ProductId = ?
+        ]]>
+      </value>
+    </property>
+    </bean>
+ </beans>

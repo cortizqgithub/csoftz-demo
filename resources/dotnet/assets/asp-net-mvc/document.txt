@@ -1,0 +1,7 @@
+File: document.txt
+Date: Aug.10/2010
+Date Modified: Aug.10/2010
+
+1. MvcUploadify.zip -> http://www.mvccentral.net/Kit/Details/6/ASP.NET_MVC_2_using_Uploadify_jQuery_Plugin
+2. AsyncUploaderDemo.zip -> http://blog.stevensanderson.com/2008/11/24/jquery-ajax-uploader-plugin-with-progress-bar/
+3. MvcPager1.4DLLForMvc2.0_EN.rar -> http://mvcpager.codeplex.com/

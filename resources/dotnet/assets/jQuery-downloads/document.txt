@@ -1,0 +1,6 @@
+File: document.txt
+Date: Aug.11/2010
+Date Modified: Sep.03/2010
+
+1. jquery-lightbox-0.5.zip -> http://leandrovieira.com/projects/jquery/lightbox/
+2. greybox.tar -> http://jquery.com/demo/grey/

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<objects xmlns="http://www.springframework.net"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="http://www.springframework.net http://www.springframework.net/xsd/spring-objects.xsd">
+  <!-- Helper -->
+  <object id="DS"  singleton="false"
+          type="CSoftZ.Demo.Common.Helper.DataSource,CSoftZ.Demo.Common">
+    <property name="Connection" value="metadata=res://*/src.Helper.Linq.CSoftZDemoDataModel.csdl|res://*/src.Helper.Linq.CSoftZDemoDataModel.ssdl|res://*/src.Helper.Linq.CSoftZDemoDataModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;Data Source=CSOFTZVMW7\sqlexpress;Initial Catalog=Demo;Integrated Security=True;MultipleActiveResultSets=True&quot;"/>
+  </object>
+
+  <!-- Data -->
+  <object id="ProductData" singleton="true"
+          type="CSoftZ.Demo.Data.Db.Linq.Entities.LinqEntitiesProductData,CSoftZ.Demo.Data">
+    <property name="DS" ref="DS"/>
+  </object>
+
+  <!-- Service -->
+  <object id="ProductService" singleton="true"
+          type="CSoftZ.Demo.Service.Db.DbProductService,CSoftZ.Demo.Service">
+    <property name="ProductData" ref="ProductData"/>
+  </object>
+
+  <object id="YesNoValueService" singleton="true"
+     type="CSoftZ.Demo.Service.Memory.MemoryYesNoValueService,CSoftZ.Demo.Service"/>
+  
+  <object id="ProductFilterCriteriaService" singleton="true"
+     type="CSoftZ.Demo.Service.Memory.MemoryProductFilterCriteriaService,CSoftZ.Demo.Service"/>
+
+  <object id="PageSizeValueService" singleton="true"
+     type="CSoftZ.Demo.Service.Memory.MemoryPageSizeValueService,CSoftZ.Demo.Service"/>
+  
+  <!-- Adapters-->
+  <!-- Controllers in ASP.NET MVC requires controllers to be non-singleton -->
+  <object id="HomeController" singleton="false"
+     type="CSoftZ.Demo.Web.Controllers.HomeController,CSoftZ.Demo.Web">
+    
+  </object>
+  <object id="ProductController" singleton="false"
+      type="CSoftZ.Demo.Web.Controllers.ProductController,CSoftZ.Demo.Web">
+    <property name="ProductService" ref="ProductService"/>
+    <property name="YesNoValueService" ref="YesNoValueService"/>
+    <property name="ProductFilterCriteriaService" ref="ProductFilterCriteriaService"/>
+    <property name="PageSizeValueService" ref="PageSizeValueService"/>
+  </object>
+</objects>

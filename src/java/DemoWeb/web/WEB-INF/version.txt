@@ -1,0 +1,68 @@
+CompanyName=Carlos Adolfo Ortiz Quiros
+InternalName=Spring MVC Demo (smvc)
+Language=Spanish,English
+LegalTrademarks=Copyright (c) 2010 by CSoftZ.
+ProductName=Spring MVC Demo (smvc)
+StartDate=Dec.23/2010
+LastModified=Dec.23/2010
+ProductVersion=1.0.1.05 Dec.23/2010
+ProductMode=Web application
+Platform=J2EE
+Modules=Spring Framework Java (http://www.springframework.org), 
+        JSP, 
+        JDBC, 
+        JSLT, 
+        DisplayTag (http://displaytag.sf.net),
+        Jakarta Commons (http://jakarta.apache.org/commons/index.html),
+        Sitemesh (http://www.opensymphony.com/sitemesh),
+Database=MySQL V5.1.53
+Developed Database=MySQL Mac OS X 10.6 (Snow Leopard)
+Comments=
+Dependencies=
+This project requires the following JARS
+Also notice that JARs have their current version number attached where 
+indicated.
+
+Jars updated up to Dec.23/2010
+1.  commons-beanutils-1.8.0.jar
+2.  commons-collections-3.2.1.jar
+3.  commons-dbcp-1.4.jar
+4.  commons-digester-2.1.jar
+5.  commons-el-1.0.jar
+6.  commons-fileupload-1.2.1.jar
+7.  commons-io-2.0.jar
+8.  commons-lang-2.5.jar
+9.  commons-logging-1.1.1.jar
+10. commons-pool-1.5.5.jar
+11. commons-validator-1.3.1.jar
+12. displaytag-1.2.jar
+13. jstl-1.1.2.jar
+14. mysql-connector-java-5.1.14-bin.jar
+15. org.springframework.aop-3.0.5.RELEASE.jar
+16. org.springframework.aop-3.0.5.RELEASE.jar
+17. org.springframework.aop-3.0.5.RELEASE.jar
+18. org.springframework.aop-3.0.5.RELEASE.jar
+19. org.springframework.aop-3.0.5.RELEASE.jar
+20. org.springframework.aop-3.0.5.RELEASE.jar
+21. org.springframework.aop-3.0.5.RELEASE.jar
+22. org.springframework.aop-3.0.5.RELEASE.jar
+23. org.springframework.aop-3.0.5.RELEASE.jar
+24. org.springframework.aop-3.0.5.RELEASE.jar
+25. org.springframework.aop-3.0.5.RELEASE.jar
+26. org.springframework.aop-3.0.5.RELEASE.jar
+27. org.springframework.aop-3.0.5.RELEASE.jar
+28. org.springframework.aop-3.0.5.RELEASE.jar
+29. org.springframework.aop-3.0.5.RELEASE.jar
+30. org.springframework.aop-3.0.5.RELEASE.jar
+31. org.springframework.aop-3.0.5.RELEASE.jar
+32. org.springframework.aop-3.0.5.RELEASE.jar
+33. org.springframework.aop-3.0.5.RELEASE.jar
+34. org.springframework.aop-3.0.5.RELEASE.jar
+35. log4j-1.2.15.jar
+36. sitemesh-2.4.1.jar
+37. spring-2.5.5.jar
+38. spring-webmvc-2.5.5.jar
+39. standard-1.1.2.jar
+
+Release-History
+Dec.23/2010 Version 1.0.1.05 RC1

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="DemoWeb">
+        <wb-resource deploy-path="/" source-path="/web"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="DemoCommon.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/DemoCommon/DemoCommon">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="DemoService.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/DemoService/DemoService">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="DemoInterface.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/DemoInterface/DemoInterface">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="DemoData.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/DemoData/DemoData">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="DemoDomain.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/DemoDomain/DemoDomain">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="DemoWeb"/>
+        <property name="java-output-path" value="/DemoWeb/build/classes"/>
+    </wb-module>
+</project-modules>
