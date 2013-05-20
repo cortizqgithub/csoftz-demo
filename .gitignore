@@ -110,3 +110,10 @@ UpgradeLog*.XML
 build
 WEB-INF/lib/
 WEB-INF/classes/
+
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
