@@ -1,13 +1,21 @@
 CompanyName=CSoftZ
 InternalName=ASP.NET MVC Demo
 Language=Spanish,English
-LegalTrademarks= Copyright (c) 2010 by CSoftZ.
+LegalTrademarks= Copyright (c) 2010, 2015 by CSoftZ.
 ProductName=Demo
 StartDate=Dec.01/2010
-LastModified=Dec.20/2010
+LastModified=Mar.10/2015
 ProductVersion=2010.12.01.01 Dec.02/2010
 ProductMode=Web application
 Platform=.NET
+NOTE=This project, even tough requires some external assemblies, they were
+     not stored in github and tried to migrate to ASP.NET MVC 4 and fails to do
+	 so. Thus reference is not longer valid, not runnable.
+	 Mar.10/2015 - Noticed that MVCContrib and other libraries were located
+	 in 'resources', added to project and compiled. I wonder if it runs, but it is
+	 a task for future.
+	 
+	 DemoWeb is now an ASP.NET MVC 4 app.
 Modules=Spring Framework .NET (http://www.springframework.net/),
         MVCContrib (http://mvccontrib.codeplex.com/),
         AutoMapper (http://automapper.codeplex.com),

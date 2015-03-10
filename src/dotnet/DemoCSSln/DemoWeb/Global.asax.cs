@@ -3,7 +3,6 @@ using System.Globalization;
 using System.Web.Mvc;
 using System.Web.Routing;
 using MvcContrib.ControllerFactories;
-using MvcContrib.Services;
 using MvcContrib.Spring;
 using Spring.Core.IO;
 using Spring.Objects.Factory;
@@ -35,7 +34,7 @@ namespace CSoftZ.Demo.Web {
         private void ConfigureIoC() {
             IResource input = new FileSystemResource(Server.MapPath("objects.xml"));
             IObjectFactory factory = new XmlObjectFactory(input);
-            DependencyResolver.InitializeWith(new SpringDependencyResolver(factory));
+            MvcContrib.Services.DependencyResolver.InitializeWith(new SpringDependencyResolver(factory));
 
             ControllerBuilder.Current.SetControllerFactory(typeof(IoCControllerFactory));
         }
